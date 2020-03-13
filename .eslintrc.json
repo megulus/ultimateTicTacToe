@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "no-extra-semi": "error",
+    "prefer-const": "error",
+    "no-const-assign": "error",
+    "no-implicit-globals": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaVersion": 2020
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "arrowFunctions": true,
+    "classes": true
+  },
+  "parser": "babel-eslint"
+}
